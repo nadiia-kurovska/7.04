@@ -1,3 +1,5 @@
+//task 1
+
 function totalWithDiscount (){
     let sum = +prompt('Type in the total sum of your purchase');
 if(sum >= 1500){
@@ -11,6 +13,8 @@ if(sum >= 1500){
 totalWithDiscount();
 
 
+
+//task 2
 function totalPrice(productSelected, productQuantity){
     let apples = 10;
     let oranges = 20;
@@ -34,6 +38,8 @@ function totalPrice(productSelected, productQuantity){
                 case 'watermelons':
                 console.log(watermelons * productQuantity);
                 break;
+                default:
+                    console.log('your order is not possible');
     }
 }
 
